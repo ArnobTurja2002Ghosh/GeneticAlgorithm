@@ -59,5 +59,5 @@ number of inputs:
 <ul>
 <li> Mutation Operator (1 input) </li>
 <li> Recombination Operator (> 1 input) 
-<li> 2 Inputs = Crossover </li> </li>
+<ul><li> 2 Inputs = Crossover </li> </ul> </li>
 </ul>

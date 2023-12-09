@@ -57,8 +57,8 @@ number of inputs:
   function MutateIndividual(individual, settings)
 
 <li> Recombination Operator (> 1 input) 
-<ul><li> 2 Inputs = Crossover </li> </ul> </li>
+<ul><li> 2 Inputs = Crossover 
 
-  function CrossOver(parent1, parent2, settings)
+  function CrossOver(parent1, parent2, settings) </li> </ul> </li>
 
 </ul>

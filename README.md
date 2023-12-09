@@ -23,14 +23,19 @@
 ## Survivor Selection
 
 ● Also called environmental selection
+
 ● Most EA use a fixed population size (settings.populationSize), and need a
 way of going from (parents + offspring) to next
 generation
+
 ● Often Deterministic
+
 ● Fitness Based (rank all and select)
+
 ● Age Based (prefer offspring) 
+
 ~~~
-while (nextPopulation.length < settings.populationSize){
+    while (nextPopulation.length < settings.populationSize){
         let parent1 = RouletteWheelSelection(population, fitnessSum);
         let parent2 = RouletteWheelSelection(population, fitnessSum);
         let child1  = CrossOver(parent1, parent2, settings);
@@ -48,7 +53,7 @@ while (nextPopulation.length < settings.populationSize){
 ~~~
 ● Elitism (best n always live)
 ~~~
-for(let i=0; i<numElite; i++){
+    for(let i=0; i<numElite; i++){
         nextPopulation.push(population[i]);
     }
 ~~~
@@ -58,6 +63,12 @@ Usually divided into two types according to their
 number of inputs:
 <ul>
 <li> Mutation Operator (1 input) </li>
+  ~~~
+  function MutateIndividual(individual, settings)
+  ~~~
 <li> Recombination Operator (> 1 input) 
 <ul><li> 2 Inputs = Crossover </li> </ul> </li>
+  ~~~
+  function CrossOver(parent1, parent2, settings)
+  ~~~
 </ul>

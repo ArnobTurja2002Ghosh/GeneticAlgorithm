@@ -15,3 +15,5 @@
     <td>Fitness</td>
   </tr>
 </table>
+● Quality = chance for seeding new solution
+● Fitness = chance of survival / reproduction

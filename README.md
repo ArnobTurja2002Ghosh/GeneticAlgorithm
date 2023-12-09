@@ -53,12 +53,12 @@ Usually divided into two types according to their
 number of inputs:
 <ul>
 <li> Mutation Operator (1 input) </li>
-  ~~~
+
   function MutateIndividual(individual, settings)
-  ~~~
+
 <li> Recombination Operator (> 1 input) 
 <ul><li> 2 Inputs = Crossover </li> </ul> </li>
-  ~~~
+
   function CrossOver(parent1, parent2, settings)
-  ~~~
+
 </ul>

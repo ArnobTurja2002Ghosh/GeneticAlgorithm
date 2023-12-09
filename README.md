@@ -58,5 +58,6 @@ number of inputs:
 
 <li> Recombination Operator (> 1 input) 
 <ul><li> 2 Inputs = Crossover 
+  
   function CrossOver(parent1, parent2, settings) </li> </ul> </li>
 </ul>

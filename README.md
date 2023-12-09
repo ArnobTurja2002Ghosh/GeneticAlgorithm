@@ -22,16 +22,6 @@
 
 ## Survivor Selection
 
-● Also called environmental selection
-
-● Most EA use a fixed population size (settings.populationSize), and need a
-way of going from (parents + offspring) to next
-generation
-
-● Often Deterministic
-
-● Fitness Based (rank all and select)
-
 ● Age Based (prefer offspring) 
 
 ~~~
